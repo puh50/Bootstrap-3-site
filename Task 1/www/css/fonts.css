@@ -1,0 +1,17 @@
+/***************fonts***************/
+@font-face {
+  font-family: 'Eurofurence';
+  src: url('../fonts/EurofurenceRegular.eot');
+  src: url('../fonts/EurofurenceRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/EurofurenceRegular.woff') format('woff'), url('../fonts/EurofurenceRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: 'Eurofurence';
+  src: url('../fonts/EurofurenceBold.eot');
+  src: url('../fonts/EurofurenceBold.eot?#iefix') format('embedded-opentype'), url('../fonts/EurofurenceBold.woff') format('woff'), url('../fonts/EurofurenceBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
