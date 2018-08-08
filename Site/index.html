@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="bs/css/bootstrap.css">
     <link rel="stylesheet" href="bs/css/font-awesome.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="select2/css/select2.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -100,21 +101,17 @@
                             </div>
                             <div class="select-block">
                                 <div class="select-year col-xs-2">
-                                    <select class="form-control">
-                                      <option>Year (0-1 year)</option>
-                                      <option>2</option>
-                                      <option>3</option>
-                                      <option>4</option>
-                                      <option>5</option>
+                                    <select class="form-control select2">
+                                      <option value="0-1">Year (0-1 year)</option>
+                                      <option value="1-2">Year (1-2 year)</option>
+                                      <option value="2-3">Year (2-3 year)</option>
                                     </select>
                                 </div>
                                 <div class="select-domain col-xs-2">
-                                    <select class="form-control">
-                                      <option>.com</option>
-                                      <option>2</option>
-                                      <option>3</option>
-                                      <option>4</option>
-                                      <option>5</option>
+                                    <select class="form-control select2">
+                                      <option value="com">.com</option>
+                                      <option value="by">.by</option>
+                                      <option value="io">.io</option>
                                     </select>
                                 </div>
                             </div>
@@ -135,6 +132,7 @@
     <script src="bs/js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/slick.js"></script>
+    <script src="select2/js/select2.full.js"></script>
 
     <script>
         $(document).on('ready', function() {
@@ -160,6 +158,12 @@
                 $(this).toggleClass('open');
                 $('#menu-block').toggleClass('open');
                 $('body').toggleClass('noscroll');
+            });
+                $(document).ready(function() {
+                $('.select2').select2({
+                    width: 'style',
+                    placeholder: 'Choose year'
+                });
             });
         });            
     </script>
