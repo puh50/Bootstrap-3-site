@@ -237,6 +237,9 @@ a:link {
 .select2-container--default .select2-selection--single .select2-selection__arrow {
     height: 55px;
 }
+.select2-container .select2-selection--single .select2-selection__rendered {
+    padding-left: 15px;
+}
 .col-xs-2, .col-xs-4, .col-sm-6 {
     padding-right: 0;
 }
