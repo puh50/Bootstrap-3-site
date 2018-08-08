@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hosting</title>
+    <link rel="stylesheet" href="bs/css/bootstrap.css">
+    <link rel="stylesheet" href="bs/css/font-awesome.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+    <div class="wrapper">
+       
+<!--Logo and Support-->
+       
+        <section id="head">
+            <div class="container header">
+                <div class="logo col-xs-2">
+                   <div class="logo-img"><a href="#"></a></div>
+                   <div class="logo-title"><a href="#">Hosting</a></div>
+                </div>
+                <div class="support col-xs-8 col-sm-8 col-md-6 col-lg-5 col-sm-offset-1 col-md-offset-4 col-lg-offset-5">
+                    <div class="support-block hidden-xs">
+                        <div class="support-mail">Support : <a href=""><span>info@webhosting.com</span></a></div>
+                        <div class="support-register"><a href="#">Register</a></div>
+                        <div class="support-login"><a href="#">Login</a></div>
+                    </div>
+                    <div class="btn-group visible-xs-block">
+                       <button class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">Sign In
+                            <span class="caret"></span>
+                       </button>
+                       <div class="dropdown-menu">
+                            <div class="support-mail">Support : <a href=""><span>info@webhosting.com</span></a></div>
+                            <div class="support-register"><a href="#">Register</a></div>
+                            <div class="support-login"><a href="#">Login</a></div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            <div class="container">
+                <nav id="menu-block" class="menu-wrapper">
+                    <div class="menu">
+                        <div class="menu-item active"><a href="#">Home</a></div>
+                        <div class="menu-item"><a href="#">About us</a></div>
+                        <div class="menu-item"><a href="#">Service</a></div>
+                        <div class="menu-item"><a href="#">Hosting Plans</a></div>
+                        <div class="menu-item"><a href="#">Domain</a></div>
+                        <div class="menu-item"><a href="#">Faq</a></div>
+                        <div class="menu-item"><a href="#">Testimonials</a></div>
+                        <div class="menu-item"><a href="#">Blog</a></div>
+                        <div class="menu-item"><a href="#">Support</a></div>
+                        <div class="menu-item"><a href="#">Contact Us</a></div>
+                    </div>
+                </nav>
+                <div class="burger pull-right">
+                    <div class="burger-item burger-item-1"></div>
+                    <div class="burger-item burger-item-2"></div>
+                    <div class="burger-item burger-item-3"></div>
+                </div>
+            </div>
+        </section>
+        <section id="slider">
+            <div class="container">
+                <div class="regular">
+                   <div class="slide">
+                        <h1>Awesome Hosting 1</h1>
+                        <p>With Unlimitted Features</p>
+                    </div>
+                    <div class="slide">
+                        <h1>Awesome Hosting 2</h1>
+                        <p>With Unlimitted Features</p>
+                    </div>
+                    <div class="slide">
+                        <h1>Awesome Hosting 3</h1>
+                        <p>With Unlimitted Features</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="domain">
+                <div class="container domain">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <i class="fa fa-search"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <form>
+                            <div class="form-group search-label">
+                                <label class="domain-label-block col-xs-12 col-sm-6">
+                                    <div class="domain-label">
+                                        <p>Search Your</p>
+                                        <h4>Domain</h4>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Enter your domain name">
+                                </label>
+                            </div>
+                            <div class="select-block">
+                                <div class="select-year col-xs-2">
+                                    <select class="form-control">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+                                </div>
+                                <div class="select-domain col-xs-2">
+                                    <select class="form-control">
+                                      <option>.com</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="search-button-block col-xs-2">
+                                <button type="submit" class="btn btn-default search-button">Search</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </section>
+        <section id="4"></section>
+        <section id="5"></section>
+        <section id="6"></section>
+        <section id="7"></section>
+        <section id="8"></section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bs/js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
+
+    <script>
+        $(document).on('ready', function() {
+          $(".regular").slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: false,
+            arrows: true,
+            prevArrow: '<button type="button" class="slick-prev fa fa-angle-left"></button>',
+            nextArrow: '<button type="button" class="slick-next fa fa-angle-right"></button>',
+                responsive: [
+                    {
+                      breakpoint: 991,
+                      settings: {
+                        arrows: false
+                      }
+                    }
+                    ]
+            });
+                $('.burger').click(function() {
+                $(this).toggleClass('open');
+                $('#menu-block').toggleClass('open');
+                $('body').toggleClass('noscroll');
+            });
+        });            
+    </script>
+</body>
+</html>
