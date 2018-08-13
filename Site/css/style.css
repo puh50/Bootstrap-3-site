@@ -10,10 +10,9 @@ body {
     font-family: Awesome;
     font-size: 14px;
 }
-h1,h2,h3,h4,h5,p {
+h1,h2,h4,h5,p {
     margin: 0;
     padding: 0;
-    text-transform: uppercase;
 } 
 a {
     padding: 5px 15px;
@@ -114,7 +113,9 @@ a:link {
     list-style: none;
 }
 .menu-item a {
+    font-size: 10px;
     color: var(--white);
+    text-transform: uppercase;
     padding: 20px 30px 20px 36px;
     display: block;
 }
@@ -269,15 +270,24 @@ a:link {
 }
 
 /*Benefits*/
+
 .container.benefits {
     padding: 40px 15px;
 }
 .stick {
     width: 20px;
-    height: 2px;
+    height: 3px;
     background-color: var(--orange);
     border-radius: 5px;
-    margin: 0 0 10px 15px;
+    margin: 10px 0;
+}
+.benefit-title {
+    margin-bottom: 10px;
+}
+.item-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 
