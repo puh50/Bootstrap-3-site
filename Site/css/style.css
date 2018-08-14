@@ -31,6 +31,14 @@ a:link {
 .dropdown-menu {
     left: -90px;
 }
+.uppercase-title {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+.margined-bottom {
+    margin-bottom: 30px;
+}
 
 /*Section  1*/
 
@@ -197,6 +205,9 @@ a:link {
     opacity: 0.7;
 }
 
+
+/*Section  3*/
+
 /*Domain*/
 
 #domain {
@@ -268,6 +279,9 @@ a:link {
     text-transform: uppercase;
     background-color: var(--orange);
 }
+
+
+/*Section  4*/
 
 /*Benefits*/
 
