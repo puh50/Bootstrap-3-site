@@ -5,6 +5,7 @@
     --white: #fff;
     --black: #000;
     --aqua: #e7f4f8;
+    --yellow: #f7f7c5;
 } 
 body {
     font-family: Awesome;
@@ -228,13 +229,13 @@ a:link {
     margin-right: 0;
     margin-left: 0;
 }
-.form-group p, .benefit-title p {
+.form-group p, .title-block p {
     font-size: 18px;
     font-weight: normal;
     white-space: nowrap;
     opacity: 0.7;
 }
-.form-group h4, .benefit-title h4 {
+.form-group h4, .title-block h4 {
     font-size: 30px;
     font-weight: bold;
     opacity: 0.7;
@@ -285,7 +286,7 @@ a:link {
 
 /*Benefits*/
 
-.container.benefits {
+.container.benefits, .container.hot {
     padding: 40px 15px;
 }
 .stick {
@@ -304,6 +305,29 @@ a:link {
     text-transform: uppercase;
 }
 
+
+/*Section  5*/
+
+/*Hot*/
+
+#hot {
+    background-color: var(--yellow);  
+} 
+.uppercase-title-hot {
+    margin-bottom: 20px;
+}
+.discount-block-border {
+    
+}
+.discount-block {
+    background-color: var(--white);
+    padding: 15px;
+    border: 2px solid var(--yellow);
+}
+.discount-flex {
+    display: flex;
+    flex-direction: row;
+}
 
 /*Media*/
 
