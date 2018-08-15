@@ -317,12 +317,17 @@ a:link {
     margin-bottom: 20px;
 }
 .discount-block-border {
-    
+    background-color: var(--white);
+    padding: 15px;
 }
 .discount-block {
     background-color: var(--white);
-    padding: 15px;
+    margin: 15px;
     border: 2px solid var(--yellow);
+    box-sizing: border-box;
+}
+.discount-block-border-inner {
+    padding: 15px;
 }
 .discount-flex {
     display: flex;
