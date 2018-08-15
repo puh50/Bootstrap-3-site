@@ -39,6 +39,7 @@ a:link {
 }
 .margined-bottom {
     margin-bottom: 30px;
+    overflow: hidden;
 }
 
 /*Section  1*/
@@ -289,6 +290,9 @@ a:link {
 .container.benefits, .container.hot {
     padding: 40px 15px;
 }
+.benefits-title-block {
+    margin-bottom: 40px;
+}
 .stick {
     width: 20px;
     height: 3px;
@@ -304,8 +308,21 @@ a:link {
     font-weight: bold;
     text-transform: uppercase;
 }
-
-
+.benefit-pic {
+    width: 19%;
+    margin-top: 20px;
+    margin-right: 1%;
+    display: block;
+    float: left;
+}
+.benefit-pic img {
+    max-width: 90%;
+}
+.benefit-description {
+    width: 75%;
+    margin-right: 3%;
+    float: left;
+}
 /*Section  5*/
 
 /*Hot*/
@@ -488,4 +505,5 @@ a:link {
         min-width: 15%;
         float: right;
     }
+    
 }
