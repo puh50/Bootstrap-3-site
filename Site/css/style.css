@@ -16,6 +16,7 @@ h1,h2,h4,h5,p {
     padding: 0;
 } 
 a {
+    color: var(--black);
     padding: 5px 15px;
 }
 a:hover {
@@ -230,13 +231,13 @@ a:link {
     margin-right: 0;
     margin-left: 0;
 }
-.form-group p, .title-block p {
+.title-block-p {
     font-size: 18px;
     font-weight: normal;
     white-space: nowrap;
     opacity: 0.7;
 }
-.form-group h4, .title-block h4 {
+.title-block-h4 {
     font-size: 30px;
     font-weight: bold;
     opacity: 0.7;
@@ -273,7 +274,7 @@ a:link {
 .input-domain-name.col-xs-4 {
     width: 37.333333%;
 }
-.search-button {
+.button {
     min-width: 100%;
     height: 55px;
     color: var(--white);
@@ -290,7 +291,7 @@ a:link {
 .container.benefits, .container.hot {
     padding: 40px 15px;
 }
-.benefits-title-block {
+.title-block-benefits {
     margin-bottom: 40px;
 }
 .stick {
@@ -330,26 +331,75 @@ a:link {
 #hot {
     background-color: var(--yellow);  
 } 
-.uppercase-title-hot {
-    margin-bottom: 20px;
+.title-block-hot {
+    margin-bottom: 30px;
 }
-.discount-block-border {
+.discount-lists-height {
+    height: 130px;
+    position: relative;
+}
+.discount-block {
+    height: 100%;
     background-color: var(--white);
     padding: 15px;
 }
-.discount-block {
+.discount-block-border {
+    height: 100%;
     background-color: var(--white);
-    margin: 15px;
     border: 2px solid var(--yellow);
     box-sizing: border-box;
 }
-.discount-block-border-inner {
+.discount-block-border-content {
     padding: 15px;
 }
 .discount-flex {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
+.get-up-to {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: -18px;
+    opacity: 0.7;
+}
+.percent {
+    font-size: 55px;
+    font-weight: bold;
+    color: var(--orange);
+    margin-right: 10px;
+}
+.percent-blue {
+    color: var(--blue);
+    text-transform: uppercase;
+}
+.each-host-top {
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.each-host-bottom {
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.features-list-block {
+    height: 100%;
+}
+.features-list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.features-list-item {
+    list-style: none;
+}
+.features-list-item:before {
+    content: "\203A";
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 /*Media*/
 
