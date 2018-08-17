@@ -331,12 +331,9 @@ a:link {
 #hot {
     background-color: var(--yellow);  
 } 
-.title-block-hot {
+.title-block-hot, .title-block-features {
+    white-space: nowrap;
     margin-bottom: 30px;
-}
-.discount-lists-height {
-    height: 130px;
-    position: relative;
 }
 .discount-block {
     height: 100%;
@@ -369,21 +366,19 @@ a:link {
     color: var(--orange);
     margin-right: 10px;
 }
-.percent-blue {
+.percent-blue-off {
     color: var(--blue);
     text-transform: uppercase;
 }
-.each-host-top {
-    font-size: 17px;
+.each-host {
+    font-size: 14px;
     text-transform: uppercase;
 }
 .each-host-bottom {
-    font-size: 17px;
     font-weight: bold;
-    text-transform: uppercase;
 }
-.features-list-block {
-    height: 100%;
+.features-list-block, .button-block-view-all {
+    height: 140px;
 }
 .features-list {
     height: 100%;
@@ -399,7 +394,14 @@ a:link {
     font-size: 20px;
     font-weight: bold;
 }
-
+.button-block-view-all {
+    position: relative;
+}
+.button-view-all {
+    min-width: 80%;
+    position: absolute;
+    bottom: 0;
+}
 
 /*Media*/
 
@@ -428,6 +430,19 @@ a:link {
     }
     .select2-container--default .select2-selection--single .select2-selection__arrow {
         height: 45px;
+    }
+    .get-up-to {
+        font-size: 10px;
+        margin-bottom: -14px;
+    }
+    .percent {
+        font-size: 40px;
+    }
+    .each-host {
+        font-size: 13px;
+    }
+    .features-list-block, .button-block-view-all {
+        height: 120px;
     }
 }
 
@@ -490,6 +505,10 @@ a:link {
     .select2-container--default .select2-selection--single .select2-selection__arrow {
         height: 35px;
     }
+    .hot-discount-flex-block {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -547,7 +566,7 @@ a:link {
     .select-block {
         margin-bottom: 20px;
     }
-    .search-button-block {
+    .button-block {
         width: 100%;
         overflow: hidden;
     }
