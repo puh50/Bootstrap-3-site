@@ -258,7 +258,7 @@ a:link {
 .select2-container .select2-selection--single .select2-selection__rendered {
     padding-left: 15px;
 }
-.col-xs-6, .col-xs-4, .col-sm-6 {
+.col-xs-6, .col-sm-6 {
     padding-right: 0;
 }
 .domain-label-block {
@@ -270,9 +270,6 @@ a:link {
 }
 .domain-label.col-xs-2 {
     width: 12.666667%;
-}
-.input-domain-name.col-xs-4 {
-    width: 37.333333%;
 }
 .button {
     min-width: 100%;
@@ -416,7 +413,7 @@ a:link {
     .form-group h4 {
         font-size: 25px;
     }
-    .search-button {
+    .domain-search-button, .button-view-all {
         height: 45px;
     }
     .form-control, .select2, .select2-container .select2-selection--single {
@@ -489,7 +486,7 @@ a:link {
     .form-group h4 {
         font-size: 19px;
     }
-    .search-button {
+    .domain-search-button, .button-view-all {
         height: 35px;
         font-size: 14px;
     }
@@ -559,9 +556,6 @@ a:link {
     .form-group h4 {
         font-size: 19px;
     }
-    .input-domain-name.col-xs-4 {
-        width: 100%;
-    }
     .select-year.col-xs-2, .select-domain.col-xs-2 {
         width: 50%;
     }
@@ -575,6 +569,9 @@ a:link {
     .domain-search-button {
         min-width: 15%;
         float: right;
+    }
+    .button-block-view-all {
+        height: 50px;
     }
     
 }
