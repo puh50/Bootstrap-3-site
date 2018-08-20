@@ -331,11 +331,11 @@ a:link {
 #hot {
     background-color: var(--yellow);  
 } 
-.title-block-hot {
+.title-block-hot, .title-block-features {
     margin-bottom: 30px;
 }
-.discount-lists-height {
-    height: 130px;
+.features-list-block {
+    height: 135px;
     position: relative;
 }
 .discount-block {
