@@ -15,6 +15,9 @@ h1,h2,h4,h5,p {
     margin: 0;
     padding: 0;
 } 
+ul {
+    list-style: none;
+}
 a {
     color: var(--black);
     padding: 5px 15px;
@@ -278,6 +281,8 @@ a:link {
     font-size: 17px;
     text-transform: uppercase;
     background-color: var(--orange);
+    border-radius: 0;
+    border: none;
 }
 
 
@@ -285,8 +290,8 @@ a:link {
 
 /*Benefits*/
 
-.container.benefits, .container.hot {
-    padding: 40px 15px;
+.container.benefits, .container.hot, .container.hosting {
+    padding: 60px 15px;
 }
 .title-block-benefits {
     margin-bottom: 40px;
@@ -321,6 +326,7 @@ a:link {
     margin-right: 3%;
     float: left;
 }
+
 /*Section  5*/
 
 /*Hot*/
@@ -403,6 +409,80 @@ a:link {
     min-width: 60%;
     position: absolute;
     bottom: 0;
+}
+
+/*Section  6*/
+
+/* Our hosting */
+
+.plan-block {
+    padding: 20px;
+    margin: 30px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.plan-block.col-lg-3 {
+    width: 20%;
+    margin-right: 5%;
+}
+.price-block {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+.price {
+    font-size: 50px;
+    margin-bottom: -15px;
+}
+.price-digit {
+    font-weight: bold;
+}
+.price-signature {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.plan-name {
+    width: 80%;
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.points-block {
+    width: 90%;
+    margin-bottom: 10px;
+}
+.points {
+    text-align: center;
+    padding-left: 0;
+    opacity: 0.7;
+}
+.point {
+    padding: 5px 0;
+    border-top: 1px solid #ccc;
+}
+.no-border {
+    border-top: none;
+}
+.button-block-signup {
+    width: 60%;
+}
+.button-signup {
+    height: 35px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 /*Media*/
