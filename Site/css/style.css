@@ -226,7 +226,7 @@ a:link {
 .container.domain {
     padding: 40px 15px;
 }
-.fa-search {
+.fa-search, .fa-envelope-o {
     font-size: 25px;
     color: var(--orange);
 }
@@ -292,7 +292,7 @@ a:link {
 
 /*Benefits*/
 
-.container.benefits, .container.hot, .container.hosting {
+.container.benefits, .container.hot, .container.hosting, .container.newsletter {
     padding: 60px 15px;
 }
 .title-block-benefits {
@@ -437,9 +437,6 @@ a:link {
     align-items: center;
     justify-content: center;
 }
-/* .plan-block.no-left-padding {
-    padding-left: 0;
-} */
 .price-block {
     margin-bottom: 20px;
     display: flex;
@@ -495,6 +492,17 @@ a:link {
     height: 35px;
     font-size: 13px;
     font-weight: bold;
+}
+
+/*Section  7*/
+
+/* Newsletter */
+
+#newsletter {
+    background-color: var(--aqua);
+}
+.envelope-icon {
+    margin-bottom: 10px;
 }
 
 /*Media*/
