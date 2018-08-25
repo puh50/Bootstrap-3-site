@@ -36,6 +36,9 @@ a:link {
 .dropdown-menu {
     left: -90px;
 }
+.form-control, .select2-container--default .select2-selection--single, .select2-dropdown {
+    border-radius: 0;
+}
 .uppercase-title {
     margin: 0;
     padding: 0;
@@ -408,7 +411,7 @@ a:link {
     position: relative;
 }
 .button-view-all {
-    min-width: 60%;
+    min-width: 80%;
     position: absolute;
     bottom: 0;
 }
@@ -504,7 +507,16 @@ a:link {
 .envelope-icon {
     margin-bottom: 10px;
 }
-
+.row-newsletter {
+    display: flex;
+    align-items: center;
+}
+.input-group {
+    padding-left: 15px;
+}
+.input-group-addon {
+    padding: 6px 50px;
+}
 /*Media*/
 
 @media screen and (max-width: 1199px) {
@@ -517,7 +529,7 @@ a:link {
     .form-group h4 {
         font-size: 25px;
     }
-    .domain-search-button, .button-view-all {
+    .domain-search-button, .button-view-all, .button-sign-up-now {
         height: 45px;
     }
     .form-control, .select2, .select2-container .select2-selection--single {
@@ -590,7 +602,7 @@ a:link {
     .form-group h4 {
         font-size: 19px;
     }
-    .domain-search-button, .button-view-all {
+    .domain-search-button, .button-view-all, .button-sign-up-now {
         height: 35px;
         font-size: 14px;
     }
@@ -611,6 +623,9 @@ a:link {
         display: flex;
         justify-content: space-between;
         margin-bottom: 30px;
+    }
+    .input-group-addon {
+        padding: 6px 20px;
     }
 }
 
@@ -677,7 +692,16 @@ a:link {
     .button-block-view-all {
         height: 50px;
     }
-    
+    .row-newsletter {
+        display: block;
+    }
+    .title-block-newsletter {
+        margin-bottom: 30px;
+    }
+    .input-group-addon {
+        font-size: 11px;
+        padding: 6px 10px;
+    }
 }
 
 @media screen and (max-width: 575px) {
