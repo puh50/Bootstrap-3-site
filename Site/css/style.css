@@ -520,9 +520,14 @@ a:link {
 /* Footer */
 
 #footer {
+    color: var(--white);
     background-color: var(--darkblue);
 }
-.logo-title-footer a{
+.footer-flex-block {
+    display: flex;
+    align-items: center;
+}
+.logo-title-footer a, .footer-links a {
     color: var(--white);
 }
 .logo-img-footer {
@@ -533,8 +538,32 @@ a:link {
     color: var(--white);
     text-transform: none;
     padding-left: 10px; 
-    opacity: 0.7;
+    opacity: 0.4;
 }
+.footer-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.quick-links {
+    overflow: hidden;
+}
+.footer-links {
+    padding-left: 0;
+    float: left;
+}
+.footer-links li {
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+.footer-links a {
+    opacity: 0.4;
+}
+.footer-links a:hover {
+    opacity: 1;
+}
+
+
 /*Media*/
 
 @media screen and (max-width: 1199px) {
