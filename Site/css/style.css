@@ -793,6 +793,7 @@ a:link {
     .footer-flex-block {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .footer-flex-block-list {
         display: flex;
