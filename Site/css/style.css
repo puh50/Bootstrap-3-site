@@ -45,9 +45,21 @@ a:link {
     padding: 0;
     text-transform: uppercase;
 }
+.uppercase-bold-title {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 .margined-bottom {
     margin-bottom: 30px;
     overflow: hidden;
+}
+.opacity-5 {
+    opacity: 0.5;
+}
+.opacity-7 {
+    opacity: 0.7;
 }
 
 /*Section  1*/
@@ -105,16 +117,12 @@ a:link {
 .support-mail {
     padding-right: 20px;
 }
-.support-mail span {
-    opacity: 0.5;
-}
 .support-register, .support-login {
     padding: 0 20px;
     border-left: 1px solid black;
 }
 .support-register a, .support-login a {
     color: #161920;
-    opacity: 0.5;
 }
 .support-register a:hover, .support-login a:hover, .footer-links a:hover {
     opacity: 1;
@@ -189,7 +197,7 @@ a:link {
 
 /*Slider*/
 
-#slider {
+#slider, #about-us {
     color: var(--white);
     background-color: var(--darkblue);
 }
@@ -211,7 +219,6 @@ a:link {
     font-size: 16px;
     padding: 0;
     margin: 0;
-    opacity: 0.7;
 }
 
 
@@ -226,8 +233,11 @@ a:link {
 #domain .row {
     margin-right: 0;
 }
-.container.domain, .container.benefits, .container.hot, .container.hosting, .container.newsletter, .container.footer {
+.container {
     padding: 60px 15px;
+}
+.menu-block, .header {
+    padding: 0 15px;
 }
 .fa-search, .fa-envelope-o {
     font-size: 25px;
@@ -264,7 +274,7 @@ a:link {
 .select2-container .select2-selection--single .select2-selection__rendered {
     padding-left: 15px;
 }
-.col-xs-6, .col-sm-6 {
+.select-year.col-xs-6, .select-domain.col-xs-6, .select-year.col-sm-6, .domain-label-block.col-sm-6 {
     padding-right: 0;
 }
 .domain-label-block {
@@ -278,7 +288,6 @@ a:link {
     width: 12.666667%;
 }
 .button {
-    min-width: 100%;
     height: 55px;
     color: var(--white);
     font-size: 17px;
@@ -287,8 +296,11 @@ a:link {
     border-radius: 0;
     border: none;
 }
-.button-block.button-block-domain-search {
+.button-block-domain-search {
     padding-right: 0;
+}
+.domain-search-button {
+    min-width: 100%;
 }
 
 /*Section  4*/
@@ -310,8 +322,6 @@ a:link {
 }
 .item-title {
     font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
 }
 .benefit-pic {
     width: 19%;
@@ -367,7 +377,6 @@ a:link {
     font-size: 13px;
     font-weight: bold;
     margin-bottom: -18px;
-    opacity: 0.7;
 }
 .percent {
     font-size: 55px;
@@ -389,17 +398,18 @@ a:link {
 .features-list-block, .button-block-view-all {
     height: 140px;
 }
-.features-list {
+.list {
     height: 100%;
+    padding-left: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.features-list-item {
+.list-item {
     white-space: nowrap;
     list-style: none;
 }
-.features-list-item:before {
+.list-item:before {
     content: "\203A";
     font-size: 20px;
     font-weight: bold;
@@ -443,7 +453,6 @@ a:link {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    opacity: 0.7;
 }
 .price {
     font-size: 50px;
@@ -476,7 +485,6 @@ a:link {
 .points {
     text-align: center;
     padding-left: 0;
-    opacity: 0.7;
 }
 .point {
     padding: 5px 0;
@@ -489,6 +497,7 @@ a:link {
     width: 60%;
 }
 .button-signup {
+    min-width: 100%;
     height: 35px;
     font-size: 13px;
     font-weight: bold;
@@ -498,7 +507,7 @@ a:link {
 
 /* Newsletter */
 
-#newsletter {
+#newsletter, #offers {
     background-color: var(--aqua);
 }
 .envelope-icon {
@@ -522,9 +531,6 @@ a:link {
 #footer {
     color: var(--white);
     background-color: var(--darkblue);
-}
-.footer-opacity-4 {
-    opacity: 0.4;
 }
 .footer-flex-block {
     display: flex;
@@ -568,9 +574,6 @@ a:link {
 .footer-links li {
     padding-left: 0;
     margin-bottom: 10px;
-}
-.footer-links a {
-    opacity: 0.4;
 }
 .social-icons {
     font-size: 20px;
