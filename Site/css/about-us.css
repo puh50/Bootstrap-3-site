@@ -1,0 +1,108 @@
+@import "style.css";
+
+
+/* Section 2 */
+
+/* About Us */
+
+.title-about-us-h4, .title-about-us-p {
+    opacity: 1;
+}
+.title-about-us-h4 {
+    font-size: 35px;
+}
+.title-block-p {
+    font-size: 16px;
+}
+
+/* Section 3 */
+
+/* Details */
+
+.height-block {
+    height: 242px;
+    padding-right: 15px;
+}
+.image {
+    min-height: 100%;
+    background-color: var(--blue);
+    margin-right: 15px;
+}
+.description {
+    margin-bottom: 30px;
+}
+.quote-block {
+    padding: 25px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    position: relative;
+}
+.quote {
+    font-size: 60px;
+    position: absolute;
+    top: -30px;
+    left: 5px;
+}
+
+@media screen and (max-width: 1199px) {
+    .height-block {
+        height: 302px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .height-block {
+        margin-bottom: 30px;
+    }
+}
+
+/* Section 4 */
+
+/* Special Offers */
+
+.offers-image {
+    width: 277px;
+    height: 272px;
+    margin-right: 0;
+}
+.offer-description-title, .offer-description p {
+    margin-bottom: 10px;
+}
+.offer-description-title {
+    white-space: nowrap;
+}
+.description-list {
+    margin-bottom: 20px;
+}
+.offers-list-item {
+    padding-left: 15px;
+}
+.button-block-host-today {
+    opacity: 1;
+}
+.button-host-today {
+    min-width: 60%;
+    height: 45px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1199px) {
+    .offers-image {
+        height: 292px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .offers-block {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: px) {
+    .offers-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
