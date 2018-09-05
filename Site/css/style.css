@@ -517,9 +517,6 @@ a:link {
     display: flex;
     align-items: center;
 }
-.input-group {
-    padding-left: 15px;
-}
 .input-group-addon {
     padding: 6px 50px;
 }
