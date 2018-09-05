@@ -61,8 +61,8 @@
 /* Special Offers */
 
 .offers-image {
-    width: 277px;
-    height: 272px;
+    max-width: 277px;
+    height: 262px;
     margin-right: 0;
 }
 .offer-description-title, .offer-description p {
@@ -89,7 +89,7 @@
 
 @media screen and (max-width: 1199px) {
     .offers-image {
-        height: 292px;
+        height: 282px;
     }
 }
 
@@ -99,10 +99,61 @@
     }
 }
 
-@media screen and (max-width: px) {
+@media screen and (max-width: 460px) {
+    .container.offers {
+        padding-bottom: 30px;
+    }
     .offers-block {
         display: flex;
         flex-direction: column;
+    }
+    .offers-description.col-xs-6 {
+        width: 100%;
+    }
+    .offers-description {
+        margin-bottom: 20px;
+    }
+    .offers-image.col-xs-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Section 4 */
+
+/* Our Team */
+
+.container.our-team {
+    padding-bottom: 0;
+}
+.team-member-block {
+    margin-bottom: 60px;
+}
+.team-member-image {
+    height: 260px;
+    margin: 0 0 20px 0;
+}
+.team-member-social, .team-member-description {
+    display: inline-block;
+}
+.team-member-social .social-icon {
+    color: var(--black);
+    padding: 5px 7px;
+    margin-right: 0;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 600px) {
+    .row-our-team {
+        display: flex;
+        flex-direction: column;
         align-items: center;
+    }
+    .row-our-team .col-xs-6 {
+        width: 100%;
+    }
+    .team-member-block {
+        max-width: 262px;
+        margin: 30px auto;
     }
 }
