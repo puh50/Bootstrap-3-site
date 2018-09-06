@@ -197,7 +197,7 @@ a:link {
 
 /*Slider*/
 
-#slider, #about-us {
+#slider, #about-us, #our-service {
     color: var(--white);
     background-color: var(--darkblue);
 }
@@ -239,7 +239,7 @@ a:link {
 .menu-block, .header {
     padding: 0 15px;
 }
-.fa-search, .fa-envelope-o {
+.fa-search, .fa-envelope-o, .fa-hdd-o {
     font-size: 25px;
     color: var(--orange);
 }
