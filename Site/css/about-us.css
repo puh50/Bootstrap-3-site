@@ -119,13 +119,12 @@
     }
 }
 
+
 /* Section 4 */
 
 /* Our Team */
 
-.container.our-team {
-    padding-bottom: 0;
-}
+
 .team-member-block {
     margin-bottom: 60px;
 }
@@ -156,12 +155,4 @@
         max-width: 262px;
         margin: 30px auto;
     }
-}
-
-/* Section 4 */
-
-/* Our Team */
-
-.title-block-newsletter.col-xs-12 {
-    padding-left: 0;
 }

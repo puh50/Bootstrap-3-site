@@ -61,12 +61,22 @@ a:link {
 .opacity-7 {
     opacity: 0.7;
 }
+.container {
+    padding: 60px 15px;
+}
+.padding-bottom-0 {
+    padding-bottom: 0;
+}
+.bg-color-aqua {
+    background-color: var(--aqua);
+}
 
 /*Section  1*/
 
 /*Header*/
 
 /*Logo*/
+
 
 .logo {
     height: 100px;
@@ -233,13 +243,10 @@ a:link {
 #domain .row {
     margin-right: 0;
 }
-.container {
-    padding: 60px 15px;
-}
 .menu-block, .header {
     padding: 0 15px;
 }
-.fa-search, .fa-envelope-o, .fa-hdd-o {
+.icon {
     font-size: 25px;
     color: var(--orange);
 }
@@ -348,7 +355,6 @@ a:link {
 } 
 .title-block-hot, .title-block-features {
     white-space: nowrap;
-    margin-bottom: 30px;
 }
 .features-list-block {
     height: 135px;
@@ -516,6 +522,9 @@ a:link {
 .row-newsletter {
     display: flex;
     align-items: center;
+}
+.title-block-newsletter.col-xs-12 {
+    padding-left: 0;
 }
 .input-group-addon {
     padding: 6px 50px;
