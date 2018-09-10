@@ -17,3 +17,63 @@
 .services-benefit-block {
     margin-bottom: 50px;
 }
+
+/* Featured Services */
+
+.featured-services-block {
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.featured-services-border {
+    border-right: 1px solid #fff;
+}
+.featured-services-image {
+    height: 160px;
+}
+.title-block-latest-news {
+    padding-left: 15px;
+}
+.circle-block {
+    display: flex;
+    align-items: flex-start;
+}
+.circle {
+    width: 100px;
+    min-height: 100px;
+    border-radius: 50%;
+    background-color: var(--orange);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle-inner {
+    width: 90px;
+    min-height: 90px;
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1199px) {
+    .featured-services-border {
+        border-right: none;
+        border-bottom: 1px solid #fff;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .circle {
+        width: 80px;
+        min-height: 80px;
+    }
+    .circle-inner {
+        width: 70px;
+        min-height: 70px;
+    }
+}
