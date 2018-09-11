@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="bs/css/bootstrap.css">
     <link rel="stylesheet" href="bs/css/font-awesome.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about-us.css">
     <link rel="stylesheet" href="css/service.css">
 </head>
 <body>
@@ -299,19 +301,42 @@
                 </div>
         </section>
 
-<!-- Our Team -->
+<!-- Happy Clients -->
 
-        <section id="our-team">
-            <div class="container our-team">
+        <section id="happy-clients">
+            <div class="container">
                 <div class="row">
                     <div class="title-block margined-bottom col-xs-12">
                         <div class="stick"></div>
-                        <p class="uppercase-title title-block-p">Meet</p>
-                        <h4 class="uppercase-bold-title title-block-h4">Our Team</h4>
+                        <p class="uppercase-title title-block-p">Happy</p>
+                        <h4 class="uppercase-bold-title title-block-h4">Clients</h4>
                     </div>
                 </div>
-                <div class="row row-our-team">
-                   
+                <div class="row">
+                    <div class="regular-happy-clients">
+                        <div class="slide-happy-clients">
+                            <div class="circle-client"></div>
+                            <div class="client-qoute">
+                                <p class="margined-bottom">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Aliquam quis diam lacus. Duis elementum sagittis
+                                    odio Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Aliquam quis diam lacus. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Aliquam quis diam lacus. Duis elementum sagittis
+                                    odio Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Aliquam quis diam lacus.
+                                </p>
+                                <p class="opacity-7">BY</p>
+                                <h5 class="uppercase-bold-title offer-description-title opacity-7">Akhil Designer</h5>
+                            </div>
+                        </div>
+                        <div class="slide">
+                             
+                        </div>
+                        <div class="slide">
+                             
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -405,13 +430,13 @@
 
     <script>
         $(document).on('ready', function() {
-          $(".regular").slick({
+          $(".regular-happy-clients").slick({
             dots: true,
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: false,
-            arrows: true,
+            arrows: false,
             prevArrow: '<button type="button" class="slick-prev fa fa-angle-left"></button>',
             nextArrow: '<button type="button" class="slick-next fa fa-angle-right"></button>',
                 responsive: [

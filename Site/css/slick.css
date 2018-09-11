@@ -176,37 +176,6 @@
 .slick-next:focus
 {
 }
-/*.slick-prev:hover:before,
-.slick-prev:focus:before,
-.slick-next:hover:before,
-.slick-next:focus:before
-{
-    opacity: 1;
-}
-.slick-prev.slick-disabled:before,
-.slick-next.slick-disabled:before
-{
-    opacity: .25;
-}
-
-.slick-prev:before,
-.slick-next:before
-{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 1px solid #fff;
-    font-family: courier;
-    font-size: 40px;
-    line-height: 1;
-
-    opacity: .75;
-    color: #00e0d0;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}*/
-
 .slick-prev
 {
     left: 0;
@@ -216,14 +185,6 @@
     right: 3%;
     left: auto;
 }
-/*.slick-prev:before
-{
-    content: '<';
-}
-[dir='rtl'] .slick-prev:before
-{
-    content: '>';
-}*/
 
 .slick-next
 {
@@ -234,14 +195,6 @@
     right: auto;
     left: 3%;
 }
-/*.slick-next:before
-{
-    content: '>';
-}
-[dir='rtl'] .slick-next:before
-{
-    content: '<';
-}*/
 
 /* Dots */
 
@@ -271,10 +224,8 @@
 
     display: inline-block;
 
-    width: 20px;
-    height: 20px;
     margin: 0 5px;
-    padding: 0;
+    padding: 10px;
 
     cursor: pointer;
 }
@@ -285,42 +236,19 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
-    padding: 5px;
-
     cursor: pointer;
 
     color: transparent;
     border: 0;
     outline: none;
     background: transparent;
-}
-.slick-dots li button:hover,
-.slick-dots li button:focus
-{
-    outline: none;
-}
-.slick-dots li button:hover:before,
-.slick-dots li button:focus:before
-{
-    opacity: 1;
-}
-.slick-dots li button:before
-{
+
     line-height: 20px;
-	
-    position: absolute;
-    top: -60px;
-    left: 0;
 	
     width: 15px;
     height: 15px;
     border-radius: 50%;
     border: 3px solid #ff8261;
-	
-    content: '•';
-    text-align: center;
 	
     opacity: .7;
     background-color: transparent;
@@ -328,7 +256,17 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.slick-dots li.slick-active button:before
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    opacity: 1;
+}
+.slick-dots li.slick-active button
 {
     opacity: 1;
     background-color: transparent;
