@@ -67,7 +67,10 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 520px) {
+    .featured-services-block {
+        align-items: flex-start;
+    }
     .circle {
         width: 80px;
         min-height: 80px;
@@ -76,4 +79,15 @@
         width: 70px;
         min-height: 70px;
     }
+}
+
+@media screen and (max-width: 400px) {
+    .featured-services-block-column {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .featured-services-image {
+        margin-bottom: 20px;
+    }
+    .offers-description-
 }

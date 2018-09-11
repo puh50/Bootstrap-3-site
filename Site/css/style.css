@@ -67,6 +67,16 @@ a:link {
 .padding-bottom-0 {
     padding-bottom: 0;
 }
+.padding-left-right-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.padding-left-0 {
+    padding-left: 0;
+}
+.padding-right-0 {
+    padding-right: 0;
+}
 .bg-color-aqua {
     background-color: var(--aqua);
 }
