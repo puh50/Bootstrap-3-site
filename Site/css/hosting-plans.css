@@ -1,0 +1,12 @@
+.follow-steps-block {
+    display: flex;
+    align-items: flex-start;
+}
+.sqare {
+    padding: 5px 20px;
+    margin-right: 20px;
+    background-color: var(--orange);
+    color: var(--white);
+    font-size: 25px;
+    font-weight: bold;
+}
