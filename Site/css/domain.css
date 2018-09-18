@@ -1,0 +1,14 @@
+/* Register Domain */
+
+#domain {
+    background-color: var(--white);
+}
+.domain-form {
+    margin-bottom: 40px;
+}
+.input-block {
+    margin-bottom: 20px;
+}
+.title-block-h4-16px {
+    font-size: 16px;
+}

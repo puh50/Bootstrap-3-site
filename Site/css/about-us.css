@@ -17,11 +17,6 @@
     height: 242px;
     padding-right: 15px;
 }
-.image {
-    min-height: 100%;
-    background-color: var(--blue);
-    margin-right: 15px;
-}
 .description {
     margin-bottom: 30px;
 }

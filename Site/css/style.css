@@ -83,6 +83,11 @@ a:link {
 .bg-color-aqua {
     background-color: var(--aqua);
 }
+.image {
+    min-height: 100%;
+    background-color: var(--blue);
+    margin-right: 15px;
+}
 
 /*Section  1*/
 
@@ -551,6 +556,7 @@ a:link {
 #footer {
     color: var(--white);
     background-color: var(--darkblue);
+    opacity: 0.8;
 }
 .footer-flex-block {
     display: flex;
