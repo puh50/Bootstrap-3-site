@@ -12,3 +12,62 @@
 .title-block-h4-16px {
     font-size: 16px;
 }
+.image-domain {
+    height: 168px;
+    margin-right: 0;
+}
+.prices-block {
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+.price-signature {
+    margin-bottom: -10px;
+}
+.price {
+    font-size: 35px;
+}
+
+@media screen and (max-width: 767px) {
+    .image-domain {
+        margin-bottom: 30px;
+    }
+    .price {
+        font-size: 25px;
+    }
+    .price-signature {
+        font-size: 10px;
+    }
+}
+
+/* New Domains */
+
+.register-block {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+.register-block-flex {
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+.register-domain {
+    float: left;
+}
+.domain-register-button {
+    height: inherit;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    float: right;
+}
+.register-block-border-none {
+    border-bottom: none;
+}
+
+@media screen and (max-width: 767px) {
+    .with-top-border {
+        border-top: 1px solid #ccc;
+    }
+}
