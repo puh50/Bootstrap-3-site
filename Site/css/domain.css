@@ -30,6 +30,9 @@
 }
 
 @media screen and (max-width: 767px) {
+    .title-block-h4-16px {
+        font-size: 12px;
+    }
     .image-domain {
         margin-bottom: 30px;
     }

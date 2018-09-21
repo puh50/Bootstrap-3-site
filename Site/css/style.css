@@ -8,7 +8,7 @@
     --yellow: #f7f7c5;
 } 
 body {
-    font-family: Awesome;
+    font-family: FontAwesome, sans-serif;
     font-size: 14px;
 }
 h1,h2,h4,h5,p {
@@ -83,10 +83,12 @@ a:link {
 .bg-color-aqua {
     background-color: var(--aqua);
 }
+.image-block {
+    height: inherit;
+}
 .image {
     min-height: 100%;
     background-color: var(--blue);
-    margin-right: 15px;
 }
 
 /*Section  1*/
@@ -169,7 +171,7 @@ a:link {
 .menu-item a {
     color: var(--white);
     text-transform: uppercase;
-    padding: 20px 24px 20px 25px;
+    padding: 20px 23px 20px 23px;
     display: block;
 }
 .menu-item a:hover {
@@ -281,7 +283,7 @@ a:link {
     white-space: nowrap;
 }
 .title-block-h4 {
-    font-size: 30px;
+    font-size: 33px;
     font-weight: bold;
 }
 .form-control, .select2, .select2-container .select2-selection--single {
@@ -351,7 +353,6 @@ a:link {
 }
 .benefit-pic {
     width: 19%;
-    margin-top: 20px;
     margin-right: 1%;
     display: block;
     float: left;
@@ -702,7 +703,7 @@ a:link {
         font-size: 11px;
     }
     .form-group h4 {
-        font-size: 19px;
+        font-size: 20px;
     }
     .domain-search-button, .button-view-all, .button-sign-up-now {
         height: 35px;
@@ -785,9 +786,6 @@ a:link {
     }
     .form-group p {
         font-size: 11px;
-    }
-    .form-group h4 {
-        font-size: 19px;
     }
     .select-year.col-xs-2, .select-domain.col-xs-2 {
         width: 50%;

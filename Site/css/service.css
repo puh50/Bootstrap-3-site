@@ -71,6 +71,26 @@
     }
 }
 
+@media screen and (max-width: 460px) {
+    .container.offers {
+        padding-bottom: 30px;
+    }
+    .offers-block {
+        display: flex;
+        flex-direction: column;
+    }
+    .offers-description.col-xs-6 {
+        width: 50%;
+    }
+    .offers-description {
+        margin-bottom: 20px;
+    }
+    .offers-image.col-xs-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .featured-services-block-column {
         flex-direction: column;

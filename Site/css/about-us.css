@@ -14,8 +14,7 @@
 /* Details */
 
 .height-block {
-    height: 242px;
-    padding-right: 15px;
+    height: 262px;
 }
 .description {
     margin-bottom: 30px;
@@ -35,7 +34,7 @@
 
 @media screen and (max-width: 1199px) {
     .height-block {
-        height: 302px;
+        height: 322px;
     }
 }
 
