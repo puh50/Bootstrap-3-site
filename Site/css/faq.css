@@ -1,0 +1,62 @@
+/*Qestion Faq's*/
+
+.button-block-ask-questions {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.button-ask-questions {
+    padding: 0 50px;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .button-ask-questions {
+        padding: 0 20px;
+        font-size: 13px;
+    }
+}
+
+/* Your Questions */
+
+.your-questions-input {
+    padding-left: 20px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.faq-text-area {
+    padding-left: 20px;
+    resize: vertical; 
+}
+.button-submit-questions {
+    padding: 0 50px;
+}
+
+/* placeholder with "*" */
+
+  .placeholder {
+    color: #ccc;
+    position: absolute;
+    left: 45px;
+    top: 50%;
+    transform: translateY(-85%);
+    pointer-events: none;
+  }
+  .placeholder-area {
+    top: 35px;
+  }
+  .red {
+    color:red;
+  }
+  .form-control:focus ~ .placeholder,
+  .form-control:valid ~ .placeholder {
+    display: none;
+  }
+
+  @media screen and (max-width: 767px) {
+    .button-submit-questions {
+        height: 40px;
+        padding: 0 30px;
+        font-size: 15px;
+    }
+}

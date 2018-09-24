@@ -53,7 +53,7 @@
                         <div class="menu-item"><a href="Hosting_Plans.html">Hosting Plans</a></div>
                         <div class="menu-item"><a href="Domain.html">Domain</a></div>
                         <div class="menu-item"><a href="Faq.html">Faq</a></div>
-                        <div class="menu-item"><a href="#">Testimonials</a></div>
+                        <div class="menu-item"><a href="Testimonials.html">Testimonials</a></div>
                         <div class="menu-item"><a href="#">Blog</a></div>
                         <div class="menu-item"><a href="#">Support</a></div>
                         <div class="menu-item"><a href="#">Contact Us</a></div>
@@ -405,30 +405,12 @@
 
     <script>
         $(document).on('ready', function() {
-          $(".regular").slick({
-            dots: true,
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: false,
-            arrows: true,
-            prevArrow: '<button type="button" class="slick-prev fa fa-angle-left"></button>',
-            nextArrow: '<button type="button" class="slick-next fa fa-angle-right"></button>',
-                responsive: [
-                    {
-                      breakpoint: 991,
-                      settings: {
-                        arrows: false
-                      }
-                    }
-                    ]
-            });
-                $('.burger').click(function() {
-                $(this).toggleClass('open');
-                $('#menu-block').toggleClass('open');
-                $('body').toggleClass('noscroll');
-            });
-        });            
+            $('.burger').click(function() {
+            $(this).toggleClass('open');
+            $('#menu-block').toggleClass('open');
+            $('body').toggleClass('noscroll');
+        });
+    });            
     </script>
 </body>
 </html>

@@ -54,7 +54,7 @@
                         <div class="menu-item active"><a href="Hosting_Plans.html">Hosting Plans</a></div>
                         <div class="menu-item"><a href="Domain.html">Domain</a></div>
                         <div class="menu-item"><a href="Faq.html">Faq</a></div>
-                        <div class="menu-item"><a href="#">Testimonials</a></div>
+                        <div class="menu-item"><a href="Testimonials.html">Testimonials</a></div>
                         <div class="menu-item"><a href="#">Blog</a></div>
                         <div class="menu-item"><a href="#">Support</a></div>
                         <div class="menu-item"><a href="#">Contact Us</a></div>
@@ -129,7 +129,7 @@
                         <h4 class="uppercase-title title-block-h4 opacity-7">Hosting</h4>
                     </div>
                 </div>
-                <div class="row col-xs-12">
+                <div class="row">
                     <div class="plan-block col-xs-6 col-md-3">
                         <div class="border">
                             <div class="price-block opacity-7">
@@ -237,7 +237,7 @@
                         <h4 class="uppercase-title title-block-h4 opacity-7">3 Columns</h4>
                     </div>
                 </div>
-                <div class="row col-xs-12">
+                <div class="row">
                     <div class="plan-block col-xs-6 col-md-4">
                         <div class="border">
                             <div class="price-block opacity-7">
@@ -401,36 +401,18 @@
 
     <script>
         $(document).on('ready', function() {
-          $(".regular").slick({
-            dots: true,
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: false,
-            arrows: true,
-            prevArrow: '<button type="button" class="slick-prev fa fa-angle-left"></button>',
-            nextArrow: '<button type="button" class="slick-next fa fa-angle-right"></button>',
-                responsive: [
-                    {
-                      breakpoint: 991,
-                      settings: {
-                        arrows: false
-                      }
-                    }
-                    ]
+            $('.burger').click(function() {
+            $(this).toggleClass('open');
+            $('#menu-block').toggleClass('open');
+            $('body').toggleClass('noscroll');
+        });
+            $(document).ready(function() {
+            $('.select2').select2({
+                width: 'style',
+                placeholder: 'Choose year'
             });
-                $('.burger').click(function() {
-                $(this).toggleClass('open');
-                $('#menu-block').toggleClass('open');
-                $('body').toggleClass('noscroll');
-            });
-                $(document).ready(function() {
-                $('.select2').select2({
-                    width: 'style',
-                    placeholder: 'Choose year'
-                });
-            });
-        });            
+        });
+    });            
     </script>
 </body>
 </html>
