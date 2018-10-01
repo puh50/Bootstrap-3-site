@@ -1,0 +1,24 @@
+.our-blog-image {
+    height: 400px;
+    margin-bottom: 40px;
+}
+.blog-title-block {
+    margin-bottom: 20px;
+}
+.blog-title {
+    margin-bottom: 5px;
+}
+.blog-name-date-block {
+    display: flex;
+
+}
+.blog-name, .verical-line {
+    margin-right: 20px; 
+}
+.verical-line {
+    color: #ccc;
+    font-weight: bold;
+}
+.button-blog-read-more {
+    padding: 0 30px;
+}

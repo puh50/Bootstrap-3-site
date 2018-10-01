@@ -321,7 +321,8 @@ a:link {
 .button {
     height: 55px;
     color: var(--white);
-    font-size: 17px;
+    font-size: 15px;
+    font-weight: bold;
     text-transform: uppercase;
     background-color: var(--orange);
     border-radius: 0;
