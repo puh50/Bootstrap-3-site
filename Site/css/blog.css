@@ -1,6 +1,9 @@
-.our-blog-image {
+.our-blog-image-block {
     height: 400px;
     margin-bottom: 40px;
+}
+.our-blog-image {
+    background-color: #e6cbf4;
 }
 .blog-title-block {
     margin-bottom: 20px;
@@ -21,4 +24,34 @@
 }
 .button-blog-read-more {
     padding: 0 30px;
+    
+}
+.blog-infoline-block {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+.infoline-comments, .infoline-like, .infoline-share {
+    padding: 10px 10px 10px 0;
+    border-right: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+.infoline-like, .infoline-share {
+    padding-left: 10px;
+}
+.infoline-circle {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background-color: var(--orange);
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-heart {
+    color: #fff;
 }
