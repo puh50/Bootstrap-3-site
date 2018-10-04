@@ -109,12 +109,14 @@
     align-items: center;
     justify-content: flex-end;
 }
+.circle-block {
+    padding: 15px 30px 15px 15px;
+}
 .circle-client {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     background-color: #5c5c5c;
-    margin-right: 30px;
 }
 .regular-happy-clients.slick-initialized.slick-slider.slick-dotted {
     position: relative;
@@ -166,8 +168,6 @@
 @media screen and (max-width: 767px) {
     .slick-initialized .slick-slide {
         flex-direction: column;
-        align-items: center;
-        justify-content: flex-end;
     }
     .circle-client {
         margin-bottom: 20px;

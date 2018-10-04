@@ -1,0 +1,27 @@
+/* Support Center form */
+
+.search-icon {
+    font-size: 15px; 
+}
+/* .input-group-addon.icon {
+    padding: 0 10px;
+    background-color: #fff;
+    border-right-color: #fff;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+} */
+.input-group {
+    position: relative;
+}
+.placeholder {
+    color: #ccc;
+    position: absolute;
+    left: 45px;
+    top: 50%;
+    /* transform: translateY(-85%);
+    pointer-events: none; */
+  }
+  .form-control:focus ~ .placeholder,
+  .form-control:valid ~ .placeholder {
+    display: none;
+  }
