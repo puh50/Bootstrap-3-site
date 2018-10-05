@@ -1,5 +1,7 @@
 /*Qestion Faq's*/
-
+.faqs {
+    padding-bottom: 0; 
+}
 .button-block-ask-questions {
     padding-bottom: 50px;
     border-bottom: 1px solid #ccc;
@@ -8,7 +10,25 @@
     padding: 0 50px;
     margin-top: 50px;
 }
+.masonry { /* Masonry container */
+    column-count: 2;
+    column-gap: 1em;
+}
 
+.item { /* Masonry bricks or child elements */
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+.follow-steps-block {
+    padding: 0 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .masonry {
+        column-count: 1;
+    }
+  }
 
 @media screen and (max-width: 500px) {
     .button-ask-questions {

@@ -231,7 +231,7 @@ a:link {
 
 /*Slider*/
 
-#slider, #about-us, #our-service, #hosting-plans {
+#slider, #about-us, #our-service, #hosting-plans, #testimonials, #faq-questions, #contuct-us {
     color: var(--white);
     background-color: var(--darkblue);
 }
