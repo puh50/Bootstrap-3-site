@@ -46,7 +46,7 @@
 }
 .faq-text-area {
     padding-left: 20px;
-    resize: vertical; 
+    resize: none; 
 }
 .button-submit-questions {
     padding: 0 50px;
@@ -54,24 +54,24 @@
 
 /* placeholder with "*" */
 
-  .placeholder {
+.placeholder {
     color: #ccc;
     position: absolute;
     left: 45px;
     top: 50%;
     transform: translateY(-85%);
     pointer-events: none;
-  }
-  .placeholder-area {
+}
+.placeholder-area {
     top: 35px;
-  }
-  .red {
+}
+.red {
     color:red;
-  }
-  .form-control:focus ~ .placeholder,
-  .form-control:valid ~ .placeholder {
+}
+.form-control:focus ~ .placeholder,
+.form-control:valid ~ .placeholder {
     display: none;
-  }
+}
 
   @media screen and (max-width: 767px) {
     .button-submit-questions {

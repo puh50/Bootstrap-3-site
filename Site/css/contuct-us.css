@@ -1,0 +1,26 @@
+/* Contuct Us info */
+
+.contuct-description-title {
+    margin-bottom: 10px;
+}
+.socials .fa {
+    color: #111;
+}
+.socials a {
+    font-size: 18px;
+    padding-left: 0;
+    padding-right: 5px;
+}
+.form-control {
+    height: 45px;
+}
+
+@media screen and (max-width: 500px) {
+    .address, .phone {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .email-address, .social-media {
+        width: 100%;
+    }
+}
