@@ -306,6 +306,7 @@ a:link {
 .domain-label-block {
     display: flex;
     cursor: pointer;
+    font-weight: normal;
 }
 .domain-label {
     margin-right: 15px;

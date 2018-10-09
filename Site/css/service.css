@@ -4,6 +4,9 @@
 .services-title, .services-icon {
     margin-bottom: 20px;
 }
+.services-icon {
+    font-size: 50px;
+}
 .services-benefit-block {
     margin-bottom: 50px;
 }
