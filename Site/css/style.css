@@ -543,7 +543,7 @@ a:link {
 
 /* Footer */
 
-#footer {
+footer {
     color: var(--white);
     background-color: var(--darkblue);
     opacity: 0.8;
