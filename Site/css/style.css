@@ -95,8 +95,6 @@ a:link {
     background-color: var(--blue);
 }
 
-/*Section  1*/
-
 /*Header*/
 
 /*Logo*/
@@ -175,11 +173,11 @@ a:link {
 .menu-item a {
     color: var(--white);
     text-transform: uppercase;
-    padding: 20px 23px 20px 23px;
+    padding: 20px 23px;
     display: block;
 }
 .menu-item a:hover {
-    background-color: none;
+    background-color: var(--blue);
 }
 .active {
     background-color: var(--blue);

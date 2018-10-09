@@ -21,6 +21,9 @@
 .featured-services-image {
     height: 160px;
 }
+
+/* Latest News */
+
 .title-block-latest-news {
     padding-left: 15px;
 }
@@ -49,7 +52,17 @@
     justify-content: center;
     align-items: center;
 }
-
+.count-block {
+    counter-reset: myCounter;
+}
+.counter:before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
 @media screen and (max-width: 1199px) {
     .featured-services-border {
         border-right: none;

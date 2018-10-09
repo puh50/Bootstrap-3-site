@@ -1,6 +1,15 @@
 /*Qestion Faq's*/
+
 .faqs {
     padding-bottom: 0; 
+}
+.sqare {
+    padding: 5px 20px;
+    margin-right: 20px;
+    background-color: var(--orange);
+    color: var(--white);
+    font-size: 25px;
+    font-weight: bold;
 }
 .button-block-ask-questions {
     padding-bottom: 50px;
