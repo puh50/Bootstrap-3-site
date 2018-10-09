@@ -64,6 +64,13 @@
 .infoline-share a {
     padding: 5px 7px;
 }
+.pagination > .active > a:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: var(--orange);
+    border-color: var(--orange);
+}
 
 @media screen and (max-width: 450px) {
     .button {
