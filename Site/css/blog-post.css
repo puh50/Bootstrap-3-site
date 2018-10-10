@@ -90,8 +90,8 @@
 .reply {
     padding-left: 130px;
 }
-.none-border {
-    border-bottom: none;
+.comment:last-child {
+    border: none;
 }
 
 @media screen and (max-width: 767px) {

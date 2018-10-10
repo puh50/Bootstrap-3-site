@@ -35,6 +35,13 @@ a:link {
 .nav > li > a:focus {
   background-color: transparent;
 }
+.btn:hover {
+    background-color: var(--blue);
+}
+.btn:focus {
+    color: #fff;
+    background-color: var(--orange);
+}
 .dropdown-menu {
     left: -90px;
 }
