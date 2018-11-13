@@ -42,11 +42,15 @@ a:link {
     color: #fff;
     background-color: var(--orange);
 }
-.dropdown-menu {
+.support-dropdown-menu {
     left: -90px;
 }
 .form-control, .select2-container--default .select2-selection--single, .select2-dropdown {
     border-radius: 0;
+}
+.title-block::before {
+    content: "\f068";
+    color: var(--orange);
 }
 .uppercase-title {
     margin: 0;
@@ -106,14 +110,18 @@ a:link {
 
 /*Logo*/
 
-
-.logo {
+.logo-block {
     height: 100px;
     display: flex;
     align-items: center;
 }
-.logo-img a {
-    padding: 8px 25px;
+.logo {
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.logo-img {
+    padding: 16px 25px;
     background-image: url(../images/logo.png);
     background-repeat: no-repeat;
     background-position: left center;
@@ -125,9 +133,12 @@ a:link {
     font-weight: bold;
     text-transform: uppercase;
 }
-.logo-title a {
+.logo-title-link {
     color: #161920;
     padding: 5px 10px;
+}
+.logo-title-link:hover {
+    color: var(--blue);
 }
 
 /*Support*/
@@ -147,7 +158,7 @@ a:link {
     justify-content: flex-end;
     align-items: center;
 } 
-.dropdown-menu {
+.support-dropdown-menu {
     width: 235px;
 }
 .support-block a {
@@ -274,18 +285,22 @@ a:link {
 .menu-block, .header {
     padding: 0 15px;
 }
-.icon {
+.search-domain::before {
+    content: "\f002";
     font-size: 25px;
     color: var(--orange);
+    padding-left: 15px;
 }
 .form-group {
     margin-right: 0;
+    margin-bottom: 0;
     margin-left: 0;
 }
 .title-block-p {
     font-size: 18px;
     font-weight: normal;
     white-space: nowrap;
+    display: block;
 }
 .title-block-h4 {
     font-size: 33px;
@@ -340,16 +355,6 @@ a:link {
 
 /*Benefits*/
 
-.title-block-benefits {
-    margin-bottom: 40px;
-}
-.stick {
-    width: 20px;
-    height: 3px;
-    background-color: var(--orange);
-    border-radius: 5px;
-    margin: 10px 0;
-}
 .benefit-title {
     margin-bottom: 10px;
 }
@@ -534,8 +539,15 @@ a:link {
 #newsletter, #offers {
     background-color: var(--aqua);
 }
-.envelope-icon {
-    margin-bottom: 10px;
+.newsletter::before {
+    content: "\f003";
+    font-size: 25px;
+    color: var(--orange);
+    padding-left: 15px;
+    display: block;
+}
+.title-block-newsletter::before {
+    content: "";
 }
 .row-newsletter {
     display: flex;
@@ -555,21 +567,32 @@ footer {
     background-color: var(--darkblue);
     opacity: 0.8;
 }
-.footer-flex-block {
+.logo {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-logo {
     display: flex;
+    flex-direction: row;
     align-items: center;
 }
-.logo-title-footer a, .footer-links a {
+.footer-flex-block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo-title-footer, .footer-links a {
     color: var(--white);
 }
 .logo-img-footer {
-    margin-top: -30px;
+    padding: 14px 25px;
 } 
 .rights {
     font-size: 14px;
     color: var(--white);
     text-transform: none;
-    padding-left: 10px; 
+    padding-left: 65px; 
+    display: block;
 }
 .footer-flex-block-list {
     display: flex;
@@ -695,6 +718,9 @@ footer {
     .menu-wrapper.open {
         right: 0;
     }
+    .search-domain::before {
+        font-size: 18px;
+    }
     .form-group p {
         font-size: 11px;
     }
@@ -732,8 +758,8 @@ footer {
     .footer-flex-block-list {
         display: block;
     }
-    .footer-logo {
-        margin-bottom: 20px;
+    .logo {
+        margin-bottom: 30px;
     }
 }
 
@@ -771,9 +797,6 @@ footer {
     }
     .container.domain {
         padding: 40px 20px;
-    }
-    .fa-search {
-        font-size: 18px;
     }
     form {
         display: flex;
