@@ -10,7 +10,28 @@
 .services-benefit-block {
     margin-bottom: 50px;
 }
-
+.block-with-icon::before {
+    font-size: 50px;
+    color: var(--orange);
+}
+.hdd-icon::before {
+    content: "\f0a0";
+}
+.sky-icon::before {
+    content: "\f216";
+}
+.headphones-icon::before {
+    content: "\f025";
+}
+.tachometer-icon::before {
+    content: "\f0e4";
+}
+.shield-icon::before {
+    content: "\f132";
+}
+.database-icon::before {
+    content: "\f1c0";
+}
 /* Featured Services */
 
 .featured-services-block {

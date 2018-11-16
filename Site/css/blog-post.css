@@ -106,10 +106,12 @@
 
 /* Leave a Comment */
 
-.fa-comments {
-    font-size: 30px;
+.comment-block::before {
+    content: "\f086";
     color: var(--orange);
-    margin-bottom: 10px;
+}
+.title-block-comment::before {
+    content: "";
 }
 .input-block, .textarea {
     height: 200px;

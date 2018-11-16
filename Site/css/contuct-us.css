@@ -3,6 +3,10 @@
 .contuct-description-title {
     margin-bottom: 10px;
 }
+.info-block::before {
+    content: "\f068";
+    color: var(--orange);
+}
 .socials .fa {
     color: #111;
 }
