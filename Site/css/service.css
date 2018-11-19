@@ -92,6 +92,9 @@
         border-right: none;
         border-bottom: 1px solid #fff;
     }
+    .title-block-latest-news {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 520px) {

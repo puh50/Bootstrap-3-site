@@ -355,25 +355,51 @@ a:link {
 
 /*Benefits*/
 
+.masonry { /* Masonry container */
+    column-count: 3;
+    column-gap: 1em;
+}
+.item { /* Masonry bricks or child elements */
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
 .benefit-title {
     margin-bottom: 10px;
 }
 .item-title {
     font-size: 18px;
 }
-.benefit-pic {
-    width: 19%;
-    margin-right: 1%;
-    display: block;
+.benefit-description-icon {
+    padding-left: 15px;
+}
+.benefit-description-icon::before {
+    color: var(--orange);
+    font-size: 62px;
+    margin: -21px 20px 20px 0;
     float: left;
 }
-.benefit-pic img {
-    max-width: 90%;
+.benefit-description-icon-uptime::before {
+    content: "\f093";
+    margin-top: -14px;
 }
-.benefit-description {
-    width: 75%;
-    margin-right: 3%;
-    float: left;
+.benefit-description-icon-comment::before {
+    content: "\f0e6";
+}
+.benefit-description-icon-laptop::before {
+    content: "\f109";
+}
+.benefit-description-icon-gear::before {
+    content: "\f013";
+    margin: -8px 27px 0px 5px;
+}
+.benefit-description-icon-envelope::before {
+    content: "\f003";
+}
+.benefit-description-icon-lock::before {
+    content: "\f023";
+    font-size: 82px;
+    margin: -16px 25px 0 6px;
 }
 
 /*Hot*/
@@ -681,6 +707,9 @@ footer {
     .social-icons {
         font-size: 18px;
     }
+    .masonry { /* Masonry container */
+        column-count: 2;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -848,6 +877,19 @@ footer {
     }
     .quick-links {
         margin-bottom: 20px;
+    }
+    .masonry { /* Masonry container */
+        column-count: 1;
+    }
+    .benefit-description-icon::before {
+        width: 90px; 
+    }
+    .benefit-description-icon-gear::before {
+        content: "\f013";
+        margin: -16px 15px 0px 5px;
+    }
+    .benefit-description-icon-lock::before {
+        margin: -16px 15px 0 6px;
     }
 }
 

@@ -3,7 +3,8 @@
 .faqs {
     padding-bottom: 0; 
 }
-.sqare {
+.follow-steps-block::before {
+    content: "Q";
     padding: 5px 20px;
     margin-right: 20px;
     background-color: var(--orange);

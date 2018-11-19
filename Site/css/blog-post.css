@@ -107,7 +107,7 @@
 /* Leave a Comment */
 
 .comment-block::before {
-    content: "\f086";
+    content: "\f0e6";
     color: var(--orange);
 }
 .title-block-comment::before {
