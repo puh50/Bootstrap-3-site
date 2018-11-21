@@ -13,11 +13,11 @@
     font-weight: bold;
 }
 .button-block-ask-questions {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     border-bottom: 1px solid #ccc;
 }
 .button-ask-questions {
-    padding: 0 50px;
+    padding: 17px 50px;
     margin-top: 50px;
 }
 .masonry { /* Masonry container */
@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 500px) {
     .button-ask-questions {
-        padding: 0 20px;
+        padding: 19px 10px;
         font-size: 13px;
     }
 }

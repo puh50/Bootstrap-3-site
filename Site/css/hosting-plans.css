@@ -19,3 +19,12 @@
     font-size: 14px; 
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1199px) {
+    .follow-steps-block {
+        margin-bottom: 20px;
+    }
+    .follow-steps-block:last-child {
+        margin-bottom: 0;
+    }
+}
