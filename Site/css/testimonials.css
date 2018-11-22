@@ -35,6 +35,9 @@ p.client-description {
 .slide-block {
     padding: 20px 10px;
 }
+.slide p {
+    font-size: 14px;
+} 
 .border {
     position: relative;
 }
