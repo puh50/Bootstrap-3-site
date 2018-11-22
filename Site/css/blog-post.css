@@ -38,22 +38,22 @@
     .our-blog-image-block {
         height: 250px;
     }
-    .blog-infoline-block {
+    .blog-post-footer {
         border-top: 1px solid #ccc;
         border-bottom: none;
         flex-direction: column;
     }
-    .infoline-comments, .infoline-like, .infoline-share {
+    .blog-post-comments, .blog-post-like, .blog-post-share {
         padding: 10px 10px 10px 0;
         border-left: none;
         border-right: none;
         display: flex;
         align-items: center;
     }
-    .infoline-like, .infoline-share {
+    .blog-post-like, .blog-post-share {
         border-top: 1px solid #ccc;
     }
-    .infoline-share {
+    .blog-post-share {
         margin-bottom: 30px;
         border-bottom: 1px solid #ccc;
     }

@@ -1,11 +1,13 @@
 /* Hosting Services */
 
 
-.services-title, .services-icon {
+.services-title {
+    font-size: 16px;
     margin-bottom: 20px;
 }
 .services-icon {
     font-size: 50px;
+    margin-bottom: 20px;
 }
 .services-benefit-block {
     margin-bottom: 10px;

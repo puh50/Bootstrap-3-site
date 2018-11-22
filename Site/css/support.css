@@ -30,6 +30,9 @@
 
   /* Empty Title */
 
+  .support-center-title {
+      font-size: 14px;
+  }
   .article-block {
       line-height: 2;
   }

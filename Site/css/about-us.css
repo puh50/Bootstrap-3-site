@@ -25,6 +25,7 @@
     border: 1px solid #ccc;
     box-sizing: border-box;
     position: relative;
+    margin: 0;
 }
 .quote {
     font-size: 60px;
@@ -45,8 +46,6 @@
     }
 }
 
-/* Section 4 */
-
 /* Special Offers */
 
 .offers-image {
@@ -58,6 +57,7 @@
     margin-bottom: 10px;
 }
 .offer-description-title {
+    font-size: 14px;
     white-space: nowrap;
 }
 .description-list {
@@ -108,18 +108,18 @@
     }
 }
 
-
-/* Section 4 */
-
 /* Our Team */
 
 
+.our-team-title-margin {
+    margin-bottom: 5px;
+}
 .team-member-block {
-    margin-bottom: 25px;
+    margin-top: 25px;
 }
 .team-member-image {
     height: 260px;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
 }
 .team-member-social, .team-member-description {
     display: inline-block;
@@ -142,6 +142,6 @@
     }
     .team-member-block {
         max-width: 262px;
-        margin: 15px auto;
+        margin: 15px auto 0 auto;
     }
 }

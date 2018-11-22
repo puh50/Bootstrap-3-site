@@ -1,6 +1,7 @@
 /* Contuct Us info */
 
 .contuct-description-title {
+    font-size: 14px;
     margin-bottom: 10px;
 }
 .info-block::before {

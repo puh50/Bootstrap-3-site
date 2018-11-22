@@ -637,6 +637,7 @@ footer {
     align-items: flex-start;
 }
 .footer-title {
+    font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 20px;
